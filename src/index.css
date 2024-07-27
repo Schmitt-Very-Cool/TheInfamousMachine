@@ -1,11 +1,192 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: red;
+}
+
+::selection {
+  color: white;
+  background-color: red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3c1d14;
+  padding-top: 60px;
+  background: url('../public/assets/bgvideo.gif') no-repeat center center fixed;
+  background-size: cover;
+  overflow-y: scroll; /* Ensure vertical scrolling */
+
+  /* Custom Scrollbar for Webkit Browsers */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: bisque #282020; /* For Firefox */
 }
+
+.container {
+  background-color: #222222;
+  color:burlywood;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 70vw;
+  max-width: 2000px;
+  min-height: 70vh;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+  position: relative;
+
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: red;
+  }
+  a:hover {
+    color: orange;
+  }
+  a:active {
+    color: black;
+  }
+}
+
+.infamous {
+  font-size: 150px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  top: 50%;
+}
+
+.lessinfamous {
+  font-size: 100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  top: 50%;
+}
+
+.littleinfamous {
+  font-size: 75px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  top: 50%;
+}
+
+.subheading {
+  font-size: xx-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+  color: indianred;
+}
+
+.smallheading {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.fiery {
+  text-transform: uppercase;
+  background: url('../public/assets/fire.gif') repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222222;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  font-weight: 0;
+  font-stretch: expanded;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: medium solid #1a1a1a;
+}
+
+.headerLink {
+  color: burlywood;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.headerLink:hover {
+  background: url('../public/assets/fire.gif') repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+}
+
+.PortfolioItem {
+  display: flex;
+  align-items: flex-start;
+  height: 150px;
+  border: medium inset #1a1a1a;
+  padding: 10px;
+  margin-top: 20px;
+
+  .pTitle {
+    font-size: xx-large;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .pImage {
+    max-height: 100%;
+    aspect-ratio: 1;
+    display: block;
+  }
+
+  .textcontainer {
+    margin-left: 20px;
+    ;
+  }
+}
+
+.gallery {
+  display: block;
+  align-items: center;
+}
+
+.gallery-item {
+  border: inset dimgray 2px;
+  max-height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
