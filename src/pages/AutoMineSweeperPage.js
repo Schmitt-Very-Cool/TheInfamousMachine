@@ -15,7 +15,7 @@ const AutoMineSweeperPage = () => {
                     <Link to="https://github.com/Schmitt-Very-Cool/Parallel_Minesweeper_Solver">GitHub</Link>
                 </div>
                 <br/>
-                <YoutubeEmbed embedId="Yep6GVM0IYs"/>
+                <YoutubeEmbed embedId="R-9Qkryzroc"/>
                 <br/>
                 <div className="subheading">Description</div>
                 For the final project of my Parallel Programming course in university, I made a minesweeper-solving program that connects to one or more clients and offloads the work of solving the game onto the client computers. The server partitions the unrevealed squares into a number of similarly-sized groups equal to the number of clients, and then sends those coordinates, along with a copy of the current game state, to the client computers. Each client analyzes the board to come up with a probability of each assigned tile being a mine. Each client sends back the info, and the server synchronizes it all to decide which squares to click on. There is also a primitive GUI and the program can be slowed down so you can watch it solve the game in real time.
