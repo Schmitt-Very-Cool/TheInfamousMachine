@@ -15,7 +15,6 @@ const TheInfamousMachinePage = () => {
                     <Link to="https://github.com/Schmitt-Very-Cool/TheInfamousMachine">GitHub</Link>
                 </div>
                 <br/>
-                <YoutubeEmbed embedId="Yep6GVM0IYs"/>
                 <br/>
                 <div className="subheading">Description</div>
                 This website was created by me to show off all of my cool art and programs. It was built mostly in react.js. I gave the website a very unique style in order to stand out more. TheInfamousMachine.com is updated regularly, so come back often to see what I've been working on!
