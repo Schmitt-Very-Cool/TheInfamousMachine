@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <div>
             <div className="fiery">
-                <div className="lessinfamous">
+                <div className="lessnefarious">
                     Portfolio
                 </div>
             </div>

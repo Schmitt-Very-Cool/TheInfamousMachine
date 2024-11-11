@@ -5,7 +5,7 @@ const AboutPage = () => {
     return (
         <div>
             <div className="fiery">
-                <div className="lessinfamous">
+                <div className="lessnefarious">
                     About
                 </div>
             </div>

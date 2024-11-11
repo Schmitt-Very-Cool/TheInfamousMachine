@@ -7,7 +7,7 @@ const AquariumSimulatorPage = () => {
         <div>
             <div className="center">
                 <div className="fiery">
-                    <div className="littleinfamous">
+                    <div className="littlenefarious">
                         Aquarium Simulator
                     </div>
                 </div>

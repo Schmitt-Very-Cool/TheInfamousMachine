@@ -7,7 +7,7 @@ const AutoMineSweeperPage = () => {
         <div>
             <div className="center">
                 <div className="fiery">
-                    <div className="littleinfamous">
+                    <div className="littlenefarious">
                         Parallel Minesweeper
                     </div>
                 </div>

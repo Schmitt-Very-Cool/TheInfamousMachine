@@ -1,5 +1,5 @@
-# Welcome to The Infamous Machine!
+# Welcome to The Nefarious Machine!
 
 This is a fairly simple website I made in react to showcase my programs.
 
-You can view it at http://www.theinfamousmachine.com
+You can view it at http://www.thenefariousmachine.com

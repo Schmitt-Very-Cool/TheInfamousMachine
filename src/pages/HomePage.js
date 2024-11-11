@@ -3,9 +3,9 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div>
-            <div className="infamous">
+            <div className="nefarious">
                 <div className='fiery'>
-                    The Infamous Machine
+                    The Nefarious Machine
                 </div>
             </div>
         </div>

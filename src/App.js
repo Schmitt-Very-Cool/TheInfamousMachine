@@ -8,7 +8,7 @@ import {
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import Portfolio from './pages/Portfolio';
-import TheInfamousMachinePage from './pages/TheInfamousMachinePage';
+import TheNefariousMachinePage from './pages/TheNefariousMachinePage';
 import AutoMineSweeperPage from './pages/AutoMineSweeperPage';
 import AquariumSimulatorPage from './pages/AquariumSimulatorPage';
 import HeaderBar from './components/HeaderBar';
@@ -22,7 +22,7 @@ function App() {
             <Route exact path="/" element={<HomePage/>}/>
             <Route path="/about" element={<AboutPage/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
-            <Route path="/this" element={<TheInfamousMachinePage/>}/>
+            <Route path="/this" element={<TheNefariousMachinePage/>}/>
             <Route path="/paramines" element={<AutoMineSweeperPage/>}/>
             <Route path="/aquarium" element={<AquariumSimulatorPage/>}/>
           </Routes>
