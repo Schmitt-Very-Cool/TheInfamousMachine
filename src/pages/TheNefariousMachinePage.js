@@ -12,7 +12,7 @@ const TheNefariousMachinePage = () => {
                     </div>
                 </div>
                 <div className="smallheading">
-                    <Link to="https://github.com/Schmitt-Very-Cool/TheInfamousMachine">GitHub</Link>
+                    <Link to="https://github.com/Schmitt-Very-Cool/TheNefariousMachine">GitHub</Link>
                 </div>
                 <br/>
                 <br/>
