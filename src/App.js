@@ -11,6 +11,7 @@ import Portfolio from './pages/Portfolio';
 import TheNefariousMachinePage from './pages/TheNefariousMachinePage';
 import AutoMineSweeperPage from './pages/AutoMineSweeperPage';
 import AquariumSimulatorPage from './pages/AquariumSimulatorPage';
+import SuperSandPage from './pages/SuperSandPage'
 import HeaderBar from './components/HeaderBar';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/this" element={<TheNefariousMachinePage/>}/>
             <Route path="/paramines" element={<AutoMineSweeperPage/>}/>
             <Route path="/aquarium" element={<AquariumSimulatorPage/>}/>
+            <Route path="/supersand" element={<SuperSandPage/>}/>
           </Routes>
       </div>
     </Router>

@@ -17,6 +17,12 @@ const Portfolio = () => {
                 link="/this" 
             />
             <PortfolioItem 
+                imageurl="/assets/supersand/SuperSandThumbnail.jpg" 
+                title="SuperSand" 
+                description="A falling sand game I made for fun in C++ using SFML for the GUI" 
+                link="/supersand" 
+            />
+            <PortfolioItem 
                 imageurl="/assets/minesweeper/ms_3.jpg" 
                 title="Parallel Minesweeper" 
                 description="A program that solves a minesweeper game by offloading the work onto other computers! A showcase of networking and parallel programming made for my Parallel Programming university class." 
